@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+     initial-scale=1.0">
+    <title>Projeto Valorant</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/responsivo.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./src/imagens/logo.svg" alt="Logo Valorant">
+    </header>
+
+    <main class="selecao-de-agentes">
+        <section class="agentes">
+            <h1 class="titulo"> Selecione um Agente</h1>
+            <ul class="lista-de-agentes">
+                <li class="agente" id="brimstone" data-name="Brimstone" data-description="Vindo diretamente dos EUA, o arsenal orbital do Brimstone garante que o esquadrão dele sempre esteja em vantagem. Sua capacidade de oferecer utilitários com precisão e segurança faz dele um comandante inigualável na linha de frente.">
+                    <img src="./src/imagens/Brimstone_icon.webp" alt="Agente Brimstone">
+                </li>
+
+                <li class="agente" id="phoenix" data-name="Phoenix" data-description="Chegando com tudo diretamente do Reino Unido, o poder estelar de Phoenix reluz em seu estilo de luta, incendiando o campo de batalha com luz e estilo. Tendo ajuda ou não, ele entra na luta como e quando achar que deve.">
+                    <img src="./src/imagens/Phoenix_icon.webp" alt="Agente Phoenix">
+                </li>
+
+                <li class="agente" id="sage" data-name="Sage" data-description="Como uma verdadeira fortaleza chinesa, Sage traz segurança para si mesma e para a equipe aonde quer que vá. Capaz de reviver aliados e rechaçar investidas agressivas, ela oferece um centro de calmaria em meio ao caos da batalha.">
+                    <img src="./src/imagens/Sage_icon.webp" alt="Agente Sage">
+                </li>
+
+                <li class="agente" id="sova" data-name="Sova" data-description="Nascido sob o eterno inverno das tundras russas, Sova rastreia, encontra e elimina inimigos com eficiência e precisão implacáveis. Seu arco personalizado e suas habilidades inigualáveis de reconhecimento garantem que nenhuma presa escape.">
+                    <img src="./src/imagens/Sova_icon.webp" alt="Agente Sova">
+                </li>
+
+                <li class="agente" id="viper" data-name="Viper" data-description="Viper, a química dos Estados Unidos, emprega uma variedade de dispositivos químicos venenosos para controlar o campo de batalha e prejudicar a visão do inimigo. Se as toxinas não matarem a presa, seus jogos mentais certamente o farão.">
+                    <img src="./src/imagens/Viper_icon.webp" alt="Agente Viper">
+                </li>
+
+                <li class="agente" id="cypher" data-name="Cypher" data-description="Cypher, um vendedor de informações do Marrocos, é uma verdadeira rede de vigilância de um homem só que fica de olho em cada movimento dos inimigos. Nenhum segredo está a salvo. Nenhuma manobra passa despercebida. Cypher está sempre vigiando.">
+                    <img src="./src/imagens/Cypher_icon.webp" alt="Agente Cypher">
+                </li>
+
+                <li class="agente" id="reyna" data-name="Reyna" data-description="Criada no coração do México, Reyna domina o combate individual, destacando-se a cada abate efetuado. Sua capacidade só é limitada por sua própria perícia, tornando-a bastante dependente de desempenho.">
+                    <img src="./src/imagens/Reyna_icon.webp" alt="Agente Reyna">
+                </li>
+
+                <li class="agente" id="killjoy" data-name="Killjoy" data-description="Killjoy, uma alemã genial, defende posições-chave no campo de batalha facilmente com seu arsenal de invenções. Se o dano causado por seu equipamento não der cabo dos inimigos, os efeitos negativos de seus queridos robôs darão conta do recado.">
+                    <img src="./src/imagens/Killjoy_icon.webp" alt="Agente Killjoy">
+                </li>
+
+                <li class="agente" id="breach" data-name="Breach" data-description="Breach, o homem-biônico sueco, dispara poderosos jatos cinéticos para forçar a abertura de um caminho pelo território inimigo. O dano e a interrupção que ele causa garantem que nenhuma luta seja justa.">
+                    <img src="./src/imagens/Breach_icon.webp" alt="Agente Breach">
+                </li>
+
+                <li class="agente" id="omen" data-name="Omen" data-description="Omen, uma lembrança fantasmagórica, caça nas sombras. Ele cega os inimigos, teleporta-se pelo campo e deixa a paranoia assumir o controle enquanto o adversário tenta descobrir de onde virá seu próximo ataque.">
+                    <img src="./src/imagens/Omen_icon.webp" alt="Agente Omen">
+                </li>
+
+                <li class="agente" id="jett" data-name="Jett" data-description="Representando a Coreia do Sul, sua terra natal, Jett tem um estilo de luta ágil e evasivo que permite que ela assuma riscos como ninguém. Ela corre em meio a qualquer confronto, cortando os inimigos antes mesmo que eles percebam quem ou o que os atingiu.">
+                    <img src="./src/imagens/Jett_icon.webp" alt="Agente Jett">
+                </li>
+
+                <li class="agente" id="raze" data-name="Raze" data-description='Raze chega do Brasil com uma explosão de carisma e armas enormes. Com seu estilo de jogo "porradeiro", ela é craque em desentocar inimigos entrincheirados e limpar espaços apertados com uma bela dose de BUUUM!''>
+                    <img src="./src/imagens/Raze_icon.webp" alt="Agente Raze">
+                </li>
+
+                <li class="agente" id="skye" data-name="Skye" data-description="Mandando um salve direto da Austrália, Skye e sua equipe de feras desbravam territórios hostis. Com seus poderes de cura e suas criações que partem pra cima dos inimigos, qualquer equipe ficará mais forte e mais segura tendo Skye como aliada.">
+                    <img src="./src/imagens/Skye_icon.webp" alt="Agente Skye">
+                </li>
+
+                <li class="agente" id="yoru" data-name="Yoru" data-description="Yoru, nativo do Japão, abre fendas na realidade para infiltrar as linhas inimigas sem ser visto. Ele usa tanto artimanhas quanto táticas agressivas, e os alvos são abatidos sem saber de onde o ataque veio.">
+                    <img src="./src/imagens/Yoru_icon.webp" alt="Agente Yoru">
+                </li>
+
+                <li class="agente" id="astra" data-name="Astra" data-description="Astra, a Agente ganense, utiliza energias cósmicas para moldar o campo de batalha a seu bel-prazer. Com total domínio da sua forma astral e um talento estratégico nato, ela está sempre anos-luz à frente dos inimigos.">
+                    <img src="./src/imagens/Astra_icon.webp" alt="Agente Astra">
+                </li>
+
+                <li class="agente" id="kayo" data-name="kayo" data-description="KAY/O é uma máquina de guerra construída com um único propósito: neutralizar Radiantes. Ele é capaz de Suprimir habilidades inimigas, anulando a capacidade de contra-ataque dos adversários e dando a si e a seus aliados uma vantagem essencial em combate.">
+                    <img src="./src/imagens/KAYO_icon.webp" alt="Agente Kay/o">
+                </li>
+
+                <li class="agente" id="chamber" data-name="Chamber" data-description="Bem-vestido e armado até os dentes, o criador de armas francês Chamber coloca os inimigos para correr com precisão mortal. Use e abuse do arsenal personalizado dele para segurar posições e abater inimigos de longe, criando a defesa perfeita para qualquer plano.">
+                    <img src="./src/imagens/Chamber_icon.webp" alt="Agente Chamber">
+                </li>
+
+                <li class="agente" id="neon" data-name="Neon" data-description="Neon, nossa Agente filipina, avança em velocidades incríveis, descarregando surtos de radiância bioelétrica tão rapidamente quanto seu corpo consegue gerá-los. Ela corre à frente para pegar os inimigos de surpresa, abatendo-os mais rápido do que um raio.">
+                    <img src="./src/imagens/Neon_icon.webp" alt="Agente Neon">
+                </li>
+
+                <li class="agente" id="fade" data-name="Fade" data-description="Fade, uma caçadora de recompensas turca, usa o poder dos pesadelos para capturar os segredos dos inimigos. Personificando o próprio terror, ela persegue os alvos e revela seus medos mais profundos para, depois, destruí-los na escuridão.">
+                    <img src="./src/imagens/Fade_icon.webp" alt="Agente Fade">
+                </li>
+
+                <li class="agente" id="harbor" data-name="Harbor" data-description="Vindo do litoral indiano, Harbor entra em campo com a força da tormenta, empunhando tecnologia ancestral com domínio sobre a água. Ele libera corredeiras espumantes e ondas esmagadoras para proteger seus aliados ou atacar aqueles que se opõem a ele.">
+                    <img src="./src/imagens/Harbor_icon.webp" alt="Agente Harbor">
+                </li>
+
+                <li class="agente" id="gekko" data-name="Gekko" data-description="Gekko, de Los Angeles, lidera um grupo muito unido de criaturas caóticas. Seus amigos atropelam tudo, tirando os inimigos do caminho. Depois, Gekko corre atrás deles para reagrupá-los e reiniciar o processo.">
+                    <img src="./src/imagens/Gekko_icon.webp" alt="Agente Gekko">
+                </li>
+
+                <li class="agente" id="deadlock" data-name="Deadlock" data-description="A agente norueguesa Deadlock posiciona uma gama de nanofios de alta tecnologia para proteger o campo de batalha até mesmo do ataque mais letal. Ninguém escapa do seu olhar vigilante. Ninguém sobrevive à sua ferocidade implacável.">
+                    <img src="./src/imagens/Deadlock_icon.webp" alt="Agente Deadlock">
+                </li>
+
+            </ul>
+        </section>
+        <section class="agente-selecionado">
+            <img class="agente-grande" src="./src/imagens/card-brimstone.png" alt="Agente Selecionado">
+            <div class="informacoes-agente">
+                <h2 class="nome-agente" id="nome-agente">Brimstone</h2>
+                <p class="descricao-agente" id="descricao-agente">Vindo diretamente dos EUA, o arsenal orbital do
+                    Brimstone garante que o esquadrão dele sempre esteja em vantagem. Sua capacidade de oferecer
+                    utilitários com precisão e segurança faz dele um comandante inigualável na linha de frente.</p>
+
+            </div>
+
+        </section>
+
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>

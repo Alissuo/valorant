@@ -1,0 +1,99 @@
+body {
+    font-family: "Roboto", cursive;
+    background: #000000;
+    color: #ffffff;
+}
+
+body::before {
+    content: "";
+    background-image: url(../imagens/bg-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    max-height: 150px;
+
+}
+
+.selecao-de-agentes {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    min-height: calc(100vh - 152px);
+    justify-content: center;
+}
+
+.selecao-de-agentes .lista-de-agentes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 23px;
+    justify-content: center;
+}
+
+.selecao-de-agentes .agentes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 585px;
+    gap: 25px;
+}
+
+.selecao-de-agentes .agentes .titulo {
+    font-size: 20px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    border-bottom: 2px solid red;
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff1c;
+
+}
+
+.lista-de-agentes .agente {
+    border-bottom: 4px solid red;
+    background-color: #ffffff1c;
+
+}
+
+.lista-de-agentes .agente img {
+    width: 100%;
+    height: 100%;
+}
+
+.lista-de-agentes .agente.selecionado {
+    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.404);}
+
+.agente-selecionado {
+    text-align: center;
+
+}
+
+.agente-selecionado .agente-grande {
+    /* width: 430px;
+    height: 430px; */
+    max-height: 600px;
+}
+
+.agente-selecionado .nome-agente {
+    border-bottom: 2px solid red;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    background-color: #ffffff1c;
+}
+
+.agente-selecionado .descricao-agente {
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 20px;
+    width: 420px;
+}
