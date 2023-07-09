@@ -80,7 +80,7 @@ body::before {
 .agente-selecionado .agente-grande {
     /* width: 430px;
     height: 430px; */
-    max-height: 600px;
+    max-height: 450px;
 }
 
 .agente-selecionado .nome-agente {
